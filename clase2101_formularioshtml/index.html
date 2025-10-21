@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h1>Fomulario Web Básico</h1>
+    <form>
+        <fieldset>
+            <legend>Información del usuario</legend>
+            <label>Nombre: </label>
+            <input type="text" placeholder="Pepe perez" required><br><br>
+            <label>Dirección e-mail:</label>
+            <input type="email" required><br><br>
+            <label>Ciudad: </label>
+            <select>
+                <option>Madrid</option>
+                <option>Sevilla</option>
+                <option>Barcelona</option>
+                <option>Zaragoza</option>
+            </select>
+
+            <p>Aficciones:</p>
+            <input type="checkbox" checked/>Deportes<br>
+            <input type="checkbox"/>Coches<br>
+            <input type="checkbox"/>Música<br>
+
+            <p>Sexo:</p>
+            <input type="radio" name="sexo" checked/>Hombre<br>
+            <input type="radio" name="sexo"/>Mujer<br>
+            <input type="radio" name="sexo"/>Otros
+            <br>
+            <label>Color:</label>
+            <input type="color">
+            <br>
+            <label>Fecha:</label>
+            <input type="date">
+            <br>
+            <label>Fecha:</label>
+            <input type="datetime">
+            <br>
+            <label>Fecha:</label>
+            <input type="datetime-local">
+            <br>
+            <label>Contraseña:</label>
+            <input type="password">
+            <br>
+            <label>Fichero:</label>
+            <input type="file">
+            <br>
+            <label>Edad:</label>
+            <input type="number">
+            <br>
+            <label>Rango:</label>
+            <input type="range">
+            <br><br>
+            <label>Mensaje:</label>
+            <input type="hidden">
+            <br>
+            <label>Mensaje:</label>
+            <textarea>
+                Enviar correo
+            </textarea>
+            <br>
+            <button type="submit">Enviar datos</button><br>
+            <button type="reset">Borrar</button><br>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
