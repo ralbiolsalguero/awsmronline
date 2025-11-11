@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*.caja1 {
+    border: solid 3px red;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    color: blue;
+    background-color: aquamarine;
+}
+
+.caja2 {
+    border: solid 3px green;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    color: red;
+    background-color: burlywood;
+}
+
+.caja3 {
+    border: solid 3px yellow;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    color: rebeccapurple;
+    background-color: chocolate;
+}*/
+
+/*.caja1 {
+    background-color: blue;
+    color: white;
+    padding: 5%;
+    width: 40%;
+    float: left;
+}
+
+.caja2{
+    background-color: crimson;
+    color:white;
+    padding: 5%;
+    width: 41%;
+    float: left;
+}*/
+
+/*Margin -> margen exterior
+margin: px o %
+
+margin-top
+margin-left
+margin-right
+margin-bottom
+
+*/
+
+
+
+.imagen{
+    border: solid 1px red;
+    width: 50%;
+}
+
+.imagen img{
+    width: 100%;
+}

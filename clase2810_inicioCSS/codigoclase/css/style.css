@@ -1,7 +1,7 @@
 /*
 CSS -> Hoja de estilos en cascada
 
-selector{
+selector {
     propiedad: valor;
 }
 
@@ -25,8 +25,7 @@ h1{
     color:red; /*Color de letra*/
     font-family: 'badeen'; /*Aplicar tipografía*/
     font-size: 90px; /*Tamaño fuente*/
-    text-align: center; /*Texto alineado al centro*/
-    
+    text-align: center; /*Texto alineado al centro*/    
 }
 
 p{
