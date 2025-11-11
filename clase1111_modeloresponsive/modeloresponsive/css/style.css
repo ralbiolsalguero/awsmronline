@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.caja1 {
+    border: solid 10px red;
+    font-size: 5vw;
+    width: 20vw;
+    height: 30vh; /*30% de la altura del viewport*/
+    padding: 50px;
+    margin-left: 200px;
+    margin-top: 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo_ordenador img{
+    width: 100%;
+}
+
+.logo_ordenador {
+    width: 70%;
+}
+
+.logo_movil img{
+    width: 100%;
+}
+
+.logo_movil {
+    width: 70%;
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .logo_ordenador {
+        display: none;
+    }
+    .logo_movil {
+        display: block;
+    }
+}

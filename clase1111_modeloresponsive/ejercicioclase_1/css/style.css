@@ -1,0 +1,29 @@
+.caja {
+    padding: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 599px) {
+    .caja {
+        background: red;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    .caja{
+        background-color: blue;
+        font-size: 22px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .caja {
+        background: green;
+        font-size: 28px;
+        text-align: right;
+    }
+    
+}
