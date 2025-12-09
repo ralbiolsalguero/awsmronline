@@ -6,3 +6,12 @@
 5. mostrar el resultado por un parrafo con id "cent"
 
 */
+
+function convertir(){
+    let e = parseInt(document.getElementById("euros").value);
+    
+    let centimos = e * 100;
+
+    document.getElementById("cent").innerText = "Céntimos: "+centimos;
+
+}

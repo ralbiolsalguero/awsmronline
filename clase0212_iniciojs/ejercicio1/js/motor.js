@@ -7,6 +7,7 @@ function sumar(){
 
     document.getElementById("resultado").innerText = "Resultado: "+suma;
 
-
+// 'C'
+//99
 
 }
