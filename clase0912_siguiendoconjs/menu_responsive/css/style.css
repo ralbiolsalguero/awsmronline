@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuSuperior{
+    overflow: hidden;
+    background-color: #2e2e2e;
+}
+
+.menuSuperior a{
+    float: left;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.menuSuperior a:hover{
+    background-color: #dcdcdc;
+    color: black
+}
+
+.menuSuperior a.activo{
+    background-color: #2ecc71;
+    color: white;
+}
+
+.menuSuperior .icono{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+
+    .menuSuperior a{
+        display: none;
+    }
+
+    .menuSuperior a.icono{
+        float: right;
+        display: block;
+    }
+
+    .menuSuperior.responsivo {
+        position: relative;
+    }
+
+    .menuSuperior.responsivo .icono{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menuSuperior.responsivo a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
